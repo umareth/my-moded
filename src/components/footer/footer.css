@@ -1,0 +1,36 @@
+/* src/components/Footer/Footer.css */
+.footer {
+    background-color: #2b2f3a; /* Светлый фон для футера */
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid #dee2e6; /* Легкая граница сверху */
+    z-index: 3;
+    margin-top: auto;
+  }
+  
+  .footer-content {
+    display: flex;
+    align-items: center;
+    max-width: 1200px; /* Максимальная ширина для центрирования содержимого */
+    width: 100%;
+    justify-content: space-between;
+    background-color: #2b2f3a; /* Светлый фон для футера */
+  }
+  
+  .footer-logo img {
+    height: 60px; /* Высота логотипа */
+    margin-right: 30px; /* Отступ справа */
+  }
+  
+  .footer-text {
+    font-size: 16px;
+    color: #343a40; /* Темный цвет текста */
+  }
+
+  .footer-a{
+    color: white;
+    font-size: 16px;
+  }
+  

@@ -9,6 +9,7 @@ import Profile from './pages/Profile/Profile';
 import MyCourses from './pages/MyCourses/MyCourses';
 import CourseDetail from './pages/CourseDetail/CourseDetail';
 import MyStudents from './pages/MyStudents/MyStudents';
+import Footer from './components/footer/footer';
 
 const App = () => {
   const [isSignIn, setIsSignIn] = useState(false);
@@ -37,6 +38,7 @@ const App = () => {
           <Route path="/my-courses" element={<MyCourses />} />
           <Route path="/my-students" element={<MyStudents />} />          
         </Routes>
+        <Footer/>
       </div>
     </Router>
   );
