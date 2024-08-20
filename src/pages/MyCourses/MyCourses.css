@@ -1,0 +1,91 @@
+/* MyCourses.css */
+.my-courses-container {
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .courses-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .course-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: calc(33.333% - 20px);
+    box-sizing: border-box;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .course-image {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 15px;
+  }
+  
+  .course-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .course-title {
+    font-size: 20px;
+    margin: 10px 0;
+  }
+  
+  .course-description {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 15px;
+  }
+  
+  .course-progress {
+    margin: 10px 0;
+  }
+  
+  .progress-bar {
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    height: 20px;
+    margin-bottom: 5px;
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  .progress {
+    background-color: #007bff;
+    height: 100%;
+    border-radius: 10px;
+  }
+  
+  .unsubscribe-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .unsubscribe-button:hover {
+    background-color: #013975;
+  }
+  
